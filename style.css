@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #E0DDAA;
+}
+
+.toolbox-cont{
+    background-color: #141E27;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+}
+.toolbox-priority-cont{
+       background-color:#EEEDDE;
+       height: 3rem;
+       width: 18rem;
+       margin-left: 5rem;
+       display: flex;
+       align-items: center;
+       justify-content:space-around;
+       border-radius: 3px;
+      
+}
+
+.action-btn-cont{
+    height: 3rem;
+    width: 10rem;
+    background-color: #EEEDDE;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center ;
+    justify-content: space-around;
+    border-radius: 2px;
+}
+.color{
+    background-color: red;
+    height: 1.5rem;
+    width: 3rem;
+}
+.lightpink{
+    background-color: pink;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+background-color: green;
+}
+.black{
+    background-color: black;
+}
+.addbutton{
+    font-size: 1.5rem;
+}
+.deletebutton{
+    font-size: 1.5rem;
+}
+
+.model-cont{
+    position: absolute;
+    left: 25vw;
+    top: 25vh;
+background-color:#E0DDAA;
+height:50vh;
+width: 45vw;
+display: none;
+margin: 7rem;
+
+}
+
+.textarea-cont{
+outline: none;
+resize: none;
+border: none;
+height: 100%;
+width: 75%;
+background-color: #EEEDEE;
+font-size: 2rem;
+padding: 2rem;
+border-right: 1px solid #141E27;
+}
+
+.priority-color-cont{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around
+
+}
+
+.priority-color{
+ height: 3rem;
+ width: 5rem;
+}
+
+.main-cont{
+    margin-top: 2rem ;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    }
+
+.ticket-cont{
+    background-color: #EEEDEE;
+  height: 12rem;
+  width: 20rem;
+  margin-top: 4rem;
+  margin-left: 2rem;
+}
+
+.ticket-color{
+height: 1rem;
+}
+
+.ticket-id{
+height: 1.5rem;
+background-color:#EEEDDE;
+}
+.task-area{
+    padding: 5px;
+    font-size: 1.5rem;
+    height: 7rem;
+    overflow:auto;
+    outline: none;
+}
+
+.active{
+    border: 2px solid #E0DDAA;
+}
+
+.lock-unlock{
+ font-size: 2rem;
+ margin-left: 18rem;
+}
